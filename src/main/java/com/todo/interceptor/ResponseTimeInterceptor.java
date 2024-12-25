@@ -22,6 +22,6 @@ public class ResponseTimeInterceptor implements HandlerInterceptor {
         long startTime = (Long) request.getAttribute(START_TIME);
         long endTime = System.currentTimeMillis();
         long duration = endTime - startTime;
-        log.info("API [{} {}] executed in {} ms", request.getMethod(), request.getRequestURI(), duration);
+        log.info("Request completed: [{} {}] executed in {} ms", request.getMethod(), request.getRequestURI(), duration);
     }
 }

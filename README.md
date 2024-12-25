@@ -163,7 +163,7 @@ Example logs:
 
 ```text
 2024-12-25 17:43:14.967 INFO  [nio-8080-exec-6] c.t.interceptor.ResponseTimeInterceptor : Incoming request: [GET /api/v1/todos/abc123]
-2024-12-25 17:43:14.973 INFO  [nio-8080-exec-6] c.t.interceptor.ResponseTimeInterceptor : API [GET /api/v1/todos/abc123] executed in 6 ms
+2024-12-25 17:43:14.973 INFO  [nio-8080-exec-6] c.t.interceptor.ResponseTimeInterceptor : Request completed: [GET /api/v1/todos/abc123] executed in 6 ms
 ```
 
 ---
