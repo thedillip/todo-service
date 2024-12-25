@@ -180,13 +180,14 @@ You will see all the available API endpoints and can test them directly from the
 
 ## Contact 💌
 
-For any issues, suggestions, or inquiries, feel free to reach out to me:
+For any issues, suggestions, or inquiries, feel free to reach out to me. I’d love to hear from you! 😄
 
 - **Email**: [jrdillip@gmail.com](mailto:jrdillip@gmail.com) 📧
 - **GitHub**: [@thedillip](https://github.com/thedillip) 💻
+- **LinkedIn**: [@Dillip Sahoo](https://www.linkedin.com/in/thedillip) 🌐
+- **Website**: [Portfolio](http://www.dillipfolio.web.app) 🌍
 
-I'm always happy to connect and help! 😊❤️
+Let’s connect and collaborate! 🤝💡
+I'm always happy to chat, share ideas, or help out! 😊❤️
 
-
-
-
+Feel free to drop me a message anytime. 🌟✨
