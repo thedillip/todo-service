@@ -46,7 +46,7 @@ Welcome to the **Todo Service Application**, a Spring Boot based RESTful API for
 ### 1. Clone the repository:
 ```bash
 
-git clone https://github.com/your-username/todo-service.git 
+git clone https://github.com/thedillip/todo-service.git 
 ```
 ### 2. Navigate into the project directory:
 ```bash
