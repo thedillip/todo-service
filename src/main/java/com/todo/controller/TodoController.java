@@ -3,6 +3,7 @@ package com.todo.controller;
 import com.todo.dto.request.TodoRequest;
 import com.todo.dto.response.TodoResponse;
 import com.todo.service.TodoService;
+import jakarta.validation.Valid;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.http.HttpStatus;
@@ -21,7 +22,7 @@ public class TodoController {
     private final TodoService todoService;
 
     @PostMapping
-    public ResponseEntity<TodoResponse> createTodo(@RequestBody final TodoRequest todoRequest) {
+    public ResponseEntity<TodoResponse> createTodo(@Valid @RequestBody final TodoRequest todoRequest) {
         return ResponseEntity.status(HttpStatus.CREATED).body(todoService.createTodo(todoRequest));
     }
 
@@ -36,7 +37,7 @@ public class TodoController {
     }
 
     @PutMapping(value = "/{todoId}")
-    public ResponseEntity<TodoResponse> updateTodo(@PathVariable(name = "todoId") final UUID id, @RequestBody final TodoRequest todoRequest) {
+    public ResponseEntity<TodoResponse> updateTodo(@PathVariable(name = "todoId") final UUID id, @Valid @RequestBody final TodoRequest todoRequest) {
         return ResponseEntity.ok(todoService.updateTodo(id, todoRequest));
     }
 
