@@ -178,14 +178,15 @@ You will see all the available API endpoints and can test them directly from the
 
 ---
 
-## Contact
+## Contact 💌
 
 For any issues, suggestions, or inquiries, feel free to reach out to me:
 
-- **Email**: [jrdillip@gmail.com](mailto:jrdillip@gmail.com)
-- **GitHub**: [@thedillip](https://github.com/thedillip)
+- **Email**: [jrdillip@gmail.com](mailto:jrdillip@gmail.com) 📧
+- **GitHub**: [@thedillip](https://github.com/thedillip) 💻
 
-I'm always happy to connect and help!
+I'm always happy to connect and help! 😊❤️
+
 
 
 
