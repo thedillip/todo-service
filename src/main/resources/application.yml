@@ -21,7 +21,13 @@ spring:
   redis:
     host: ${REDIS_HOST:localhost}
     port: ${REDIS_PORT:6379}
+    username:
+    password:
+    client-type: redisson
+
 redisson:
   config: |
     singleServerConfig:
       address: "redis://127.0.0.1:6379"
+      password:
+      username:
