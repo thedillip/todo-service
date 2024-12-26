@@ -20,7 +20,7 @@ public class GlobalExceptionHandler {
     @ExceptionHandler(value = ResourceNotFoundException.class)
     public ResponseEntity<ErrorResponse> handleResourceNotFoundException(ResourceNotFoundException e) {
         log.error("Todo not found: {}", e.toString());
-        ErrorResponse response = ErrorResponse.builder().errorCode("TODO_NOT_FOUND").errorMessage(e.getMessage()).build();
+        ErrorResponse response = ErrorResponse.builder().errorCode("NOT_FOUND").errorMessage(e.getMessage()).build();
         return new ResponseEntity<>(response, HttpStatus.NOT_FOUND);
     }
 
