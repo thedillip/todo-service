@@ -6,4 +6,5 @@ public class AppConstants {
     }
 
     public static final String TODO_CACHE_KEY = "todos";
+    public static final String KEEP_NOTE_MAP_NAME = "keepNoteCache";
 }

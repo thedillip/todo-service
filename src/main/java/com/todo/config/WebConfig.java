@@ -6,6 +6,8 @@ import org.springframework.context.annotation.Configuration;
 import org.springframework.web.servlet.config.annotation.InterceptorRegistry;
 import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
 
+import java.util.List;
+
 @Configuration
 public class WebConfig implements WebMvcConfigurer {
     @Bean
@@ -15,7 +17,6 @@ public class WebConfig implements WebMvcConfigurer {
 
     @Override
     public void addInterceptors(InterceptorRegistry registry) {
-        registry.addInterceptor(responseTimeInterceptor())
-                .addPathPatterns("/api/v1/todos/**");
+        registry.addInterceptor(responseTimeInterceptor()).addPathPatterns(List.of("/api/v1/todos/**", "/api/v1/keepnotes/**"));
     }
 }
